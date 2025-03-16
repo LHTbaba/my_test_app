@@ -73,6 +73,11 @@ export default {
           subName: "这是入口六的简介",
           url: "pages/tabbar-3-detail/tabbar-3-release/tabbar-3-release",
         },
+        {
+          name: "入口七",
+          subName: "这是入口七的简介",
+          url: "pages/tabbar-3-detail/tabbar-3-release/tabbar-3-release",
+        },
       ],
     };
   },
