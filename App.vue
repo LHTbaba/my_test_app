@@ -7,9 +7,9 @@ export default {
 			// 	index: 1,
 			// 	text: '99+'
 			// });
-			uni.showTabBarRedDot({
-				index: 3
-			});
+			// uni.showTabBarRedDot({
+			// 	index: 3
+			// });
 		}, 100);
 	},
 	onShow: function() {
