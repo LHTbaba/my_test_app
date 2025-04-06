@@ -2,10 +2,13 @@ import App from './App.vue'
 
 // #ifndef VUE3
 import Vue from 'vue'
+import share from "./utils/share.js"
 Vue.config.productionTip = false
 App.mpType = 'app'
+Vue.mixin(share)
 const app = new Vue({
-	...App
+	...App,
+	share
 })
 app.$mount()
 // #endif
